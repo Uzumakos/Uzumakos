@@ -26,3 +26,28 @@ I managed to create an online presence with my [Portfolio](https://amedeebaptist
 - 📫 How to reach me: erns@amedeebaptiste.com
 - ⚡ Fun fact: I'm a gamer and also a Hotaku
 -->
+
+name: "📚 latest Blog"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */24 * * *" # Runs Every 24 Hours
+
+jobs:
+  update_blogs:
+    name: "Update With Latest Blogs"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "📚  Hashnode Updater"
+        uses: "varunsridharan/action-hashnode-blog@1.1.1"
+        with:
+          USERNAME: "Vasanti" # Hashnode Username
+          COUNT: 4 # MAX Visisble
+          STYLE: "blog-left"
+          BLOG_URL: "https://vasantisuthar.hashnode.dev/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
