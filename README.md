@@ -24,7 +24,7 @@ I managed to create an online presence with my [Portfolio](https://amedeebaptist
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: erns@amedeebaptiste.com
-- ⚡ Fun fact: I'm a gamer and also a Hotaku
+- ⚡ Fun fact: I'm a gamer and also an Otaku
 -->
 
 
