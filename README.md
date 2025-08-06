@@ -27,4 +27,5 @@ I managed to create an online presence with my [Portfolio](https://amedeebaptist
 - ⚡ Fun fact: I'm a gamer and also an Otaku
 -->
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Uzumakos)](https://git.io/streak-stats)
 
